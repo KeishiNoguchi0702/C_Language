@@ -12,7 +12,7 @@ int main(void)
   scanf("%s", answerNo);
   int n = atoi(answerNo);
 
-  if (n == 1) {
+  if (n == 1 || n == 3) {
     printf("大正解！見る目あるね！\n");
   } else {
     printf("残念。\n");
