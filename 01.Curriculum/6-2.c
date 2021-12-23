@@ -5,7 +5,7 @@ typedef char String[1024];
 int main(void)
 {
   struct MONSTER {
-    String nama;
+    String name;
     int hp;
     int attack;
   };
